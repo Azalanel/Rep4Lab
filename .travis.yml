@@ -1,9 +1,7 @@
-language: c
+language: cpp
+os:
+  - windows
 
 compiler:
   - gcc
   - clang
-
-build:
-  ci:
-    - make test
