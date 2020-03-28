@@ -3,8 +3,7 @@ language: c
 compiler:
   - gcc
   - clang
-  - msvc
 
 build:
   ci:
-    - ./configure && make && make test
+    - make test
