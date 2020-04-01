@@ -1,10 +1,10 @@
+sudo: false
+
 language: cpp
-dist: xenial
+
 compiler: 
 - gcc
 - clang
 
-sudo: true
-
-install:
-  - sudo apt-get install clang
+branches:
+only: master[]
