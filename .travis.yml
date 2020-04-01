@@ -1,10 +1,10 @@
 language: cpp
 dist: xenial
-compiler: gcc
+compiler: 
+- gcc
+- clang
+
 sudo: true
 
 install:
   - sudo apt-get install clang
-
-script: 
-  - ./build.sh
